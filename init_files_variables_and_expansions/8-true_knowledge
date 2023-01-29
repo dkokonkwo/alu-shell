@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(((TRUKNOWLEDGE=1209) + 128))
+echo -e "$(((TRUKNOWLEDGE=1209) + 128))\n"

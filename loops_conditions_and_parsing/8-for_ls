@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#Using for loop to list contents in a directory with only path of the name after the first dash displayed
+for contents in *; do (echo "$contents" | rev | cut -d '-' -f -1 | rev); done

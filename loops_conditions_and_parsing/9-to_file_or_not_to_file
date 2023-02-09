@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #Using if and else to check and display information about the file "school"
 file="school"
-if [ -s "$file" ]
+if [ -e "$file" ]
 then
     echo "school file exists"
     if [ -s "$file" ]

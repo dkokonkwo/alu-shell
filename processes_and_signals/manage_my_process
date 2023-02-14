@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# Bash script that writes string infinitely into a file
+
+pgrep -f 'manage_my_process' > my_process
+sudo mv my_process /tmp
+while true;
+do
+    echo "I am alive!" > my_process
+    sleep 2
+done
